@@ -1,0 +1,21 @@
+curl-XPOST-d'Saturnre"'-H'Content-Type:
+application/json'-H'Authorization:Simple
+simyUG+7gppXIkkvIS+RdvUC7xr1'
+https://api.algorithmia.com/v1/algo/demo/Hello/
+import Algorithmia
+input="Saturnre"
+client=Algorithmia.client('
+simyUG+7gppXIkkvIS+RdvUC7xr1')
+algo=client.algo('demo/Hello/')
+print algo.pipe(input)
+curl-XPOST-d'Saturnre"'-H'Content-Type:
+application/json'-H'Authorization:Simple
+simyUG+7gppXIkkvIS+RdvUC7xr1'
+https://api.algorithmia.com/v1/algo/demo/Hello/
+{
+"result":"Hello Saturnre",
+"metadata":{
+"content_type":"text",
+"duration":0.00018722
+}
+}
